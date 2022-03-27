@@ -1,0 +1,33 @@
+.cart-products-wrap { 
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3.5em;
+}
+
+.cart-product {
+  flex: 50%;
+  width: 100%;
+}
+
+@media and screen(min-width: 800px) {
+  .cart-product {
+    flex: 25%;
+  }
+}
+
+.cart-product-info {
+  width: inherit;
+  text-align: center;
+}
+
+.image-wrap {
+  width: inherit;
+}
+
+.cart-product-info .image-wrap img {
+  width: 90%;
+  height: auto;
+}
+
+.text-info {
+}

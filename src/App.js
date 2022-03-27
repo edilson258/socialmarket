@@ -10,6 +10,7 @@ import BuyPage from './pages/buy/index';
 import SellPage from './pages/sell/index';
 import WantedProducts from './pages/wanted-products/index';
 import SelledProducts from './pages/selled-products/index';
+import Cart from './pages/cart/index';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="sell/" element={ <SellPage />} />
         <Route path="wanted/" element={ <WantedProducts />} />
         <Route path="selled/" element={ <SelledProducts />} />
+        <Route path="cart/" element={ <Cart />} />
       </Routes>
     </div>
   );
